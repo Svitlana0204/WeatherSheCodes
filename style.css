@@ -44,3 +44,13 @@ form {
 .usersCity {
     text-transform: capitalize;
 }
+
+#git-link {
+    color: var(--color-primary);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#git-link > a:hover {
+    color: var(--color-primary1);
+}
