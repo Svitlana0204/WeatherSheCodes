@@ -3,12 +3,27 @@
     --color-primary1: #ffd700;
 }
 
-h1 {
+h1,
+h3,
+h6,
+#weatherDescription {
     color: var(--color-primary);
 }
 
-h2 {
+h4 {
     color: var(--color-primary1);
+}
+
+#temperatureUnits {
+    cursor: pointer;
+}
+
+#temperatureUnits:hover {
+    color: var(--color-primary1);
+}
+
+#weatherIcon {
+    width: 60px;
 }
 
 form {
